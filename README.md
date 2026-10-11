@@ -38,6 +38,6 @@ For context, here is what the script is doing:
 - **Conversational Tree Building**: Instead of just creating a list, the script constructs a dependency tree structure. Each user message and assistant response is treated as a node, and they are linked using parentId and childrenIds to accurately represent the back-and-forth flow required by the Open WebUI format.
 - **Final Output**: All completed conversation trees are compiled into a single top-level array in open_webui_import.json.
 ## Notes
-**Timestamps**: The script includes logic to handle various timestamp formats found in Takeout data, but complex or unusual date strings may require manual review.
-**Naming Convention**: The chat title is generated from the first prompt and is capped at 40 characters, matching the expected format.
-**Error Handling**: The script checks for the existence of MyActivity.json and exits gracefully if the file is missing.
+- **Timestamps**: The script includes logic to handle various timestamp formats found in Takeout data, but complex or unusual date strings may require manual review.
+- **Naming Convention**: The chat title is generated from the first prompt and is capped at 40 characters, matching the expected format.
+- **Error Handling**: The script checks for the existence of MyActivity.json and exits gracefully if the file is missing.
