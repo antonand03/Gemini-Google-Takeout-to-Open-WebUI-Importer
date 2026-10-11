@@ -12,8 +12,8 @@ If you have pulled your chat history from Google Takeout, you know the resulting
 
 Before running the script, ensure you have the following:
 
-**Python**: Python 3.x installed.
-**Input File**: The Google Takeout export, specifically MyActivity.json, must be placed in the same folder as the Python script.
+- **Python**: Python 3.x installed.
+- **Input File**: The Google Takeout export, specifically MyActivity.json, must be placed in the same folder as the Python script.
 
 ## How to Use
 
